@@ -1,14 +1,195 @@
-<<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Ernst-Portfolio-Project</title>
 </head>
-<body>
 
+<body>
+<header class="header" >
+    <div class="container" >
+        <h1 class="header__title">Ernst</h1>
+
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item">
+                    <a href="#H" class="header__nav-link" tabindex="0">Home</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#Portfolio" class="header__nav-link" tabindex="0">Portfolio</a>
+                </li>
+                <li class="header__nav-item header__nav-item--contact">
+                    <a role="button" href="#Contact" class="header__nav-link " tabindex="0">Contact</a>
+                </li>
+                <li class="header__nav-item header__nav-item--github">
+                    <a  href="https://github.com/Ernest0101" class="header__nav-link" target="_blank">
+                        <i class= "fab fa-github"> </i></a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+</header>
+
+<section class="intro" >
+    <div class="container">
+        <h1 class="intro__title" id="H">Hi my name is Ernest 👽</h1>
+        <h2 class="intro__subtitle">I love all things tech</h2>
+    </div>
+</section>
+
+<!--mackbook-->
+<section id="Portfolio" class="gallery">
+    <div class="container">
+        <div class="gallery__grid">
+
+            <div class="gallery__item">
+                <label for="modal-1">
+                <span class="gallery__image-container" style="background-image: url('images/apple-mbp.png');"></span>
+                </label>
+                <input type="checkbox" class="gallery__modal-checkbox" id="modal-1">
+
+                <div class="gallery__modal">
+                <label for="modal-1" class="gallery__modal-close">&times;</label>
+                <img class="gallery__modal-image" src="images/apple-mbp.png" alt="Apple Mcbook website">
+                </div>
+
+            <div class="gallery__item-info">
+                <span class="galleryitem-title">Macbook Pro</span>
+                <a href="https://apple-landing.vercel.app" class="gallery__item-link" target="_blank">
+                    <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+        </div>
+
+
+
+
+
+<!--code-switcher-->
+
+        <div class="gallery__item">
+                <label for="modal-2">
+                    <span class="gallery__image-container" style="background-image: url('images/codeswitcher.png');"></span>
+                </label>
+                <input type="checkbox" class="gallery__modal-checkbox" id="modal-2">
+            <div class="gallery__modal">
+                <label for="modal-1" class="gallery__modal-close">&times;</label>
+                <img class="gallery__modal-image" src="images/codeswitcher.png" alt="Code switcher">
+            </div>
+            <div class="gallery__item-info">
+                <span class="galleryitem-title">Code switcher</span>
+                <a href="https://codeswitcher.vercel.app" class="gallery__item-link" target="_blank">
+                    <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+        </div>
+
+
+            <div class="gallery__item">
+                <label for="modal-3">
+                    <span class="gallery__image-container" style="background-image: url('images/calculator.png');"></span>
+                </label>
+                <input type="checkbox" class="gallery__modal-checkbox" id="modal-3">
+
+                <div class="gallery__modal">
+                <label for="modal-1" class="gallery__modal-close">&times;</label>
+                <img class="gallery__modal-image" src="images/calculator.png" alt="Calculator">
+                </div>
+
+            <div class="gallery__item-info">
+                <span class="galleryitem-title">Calculator</span>
+                <a href="https://codepen.io/gambhirsharma/pen/ExwBKop" class="gallery__item-link" target="_blank">
+                    <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+        </div>
+
+
+
+        <div class="gallery__item">
+                <label for="modal-4">
+                    <span class="gallery__image-container" style="background-image: url('images/DoomScroll.png');"></span>
+                </label>
+                <input type="checkbox" class="gallery__modal-checkbox" id="modal-4">
+            <div class="gallery__modal">
+                <label for="modal-4" class="gallery__modal-close">&times;</label>
+                <img class="gallery__modal-image" src="images/DoomScroll.png" alt="Doom scroll">
+            </div>
+            <div class="gallery__item-info">
+                <span class="galleryitem-title">Doom Scroll</span>
+                <a href="https://codepen.io/cobra_winfrey/pen/oNOMRav" class="gallery__item-link" target="_blank">
+                    <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+        </div>
+
+
+
+
+            <div class="gallery__item">
+                <label for="modal-5">
+                    <span class="gallery__image-container" style="background-image: url('images/glass-gradient-card.png');"></span>
+                </label>
+
+                <input type="checkbox" class="gallery__modal-checkbox" id="modal-5">
+            <div class="gallery__modal">
+                <label for="modal-5" class="gallery__modal-close">&times;</label>
+                <img class="gallery__modal-image" src="images/glass-gradient-card.png" alt="glass card gradient">
+            </div>
+
+            <div class="gallery__item-info">
+                <span class="galleryitem-title">Card Gradient</span>
+                <a href="https://codepen.io/Podgro/pen/oN0KYqr" class="gallery__item-link" target="_blank">
+                    <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+        </div>
+
+
+
+            <div class="gallery__item">
+                <label for="modal-6">
+                    <span class="gallery__image-container" style="background-image: url('images/computer-diorama.png');"></span>
+                </label>
+                <input type="checkbox" class="gallery__modal-checkbox" id="modal-6">
+            <div class="gallery__modal">
+                <label for="modal-6" class="gallery__modal-close">&times;</label>
+                <img class="gallery__modal-image" src="images/computer-diorama.png" alt="Diorama">
+            </div>
+
+            <div class="gallery__item-info">
+                <span class="galleryitem-title">Diaroma</span>
+                <a href="https://codepen.io/ricardoolivaalonso/pen/poYEpwP" class="gallery__item-link" target="_blank">
+                    <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+</section>
+
+<section id="Contact" class="contact">
+    <div class="container">
+        <h2 class="contact__title">Contact me</h2>
+            <p class="contact__description"> Contact me via my email: ernest.k.amponsah2@gmail.com</p>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <p class="footer__text">&copy:2025 Ernest, all rights reserved</p>
+    </div>
+
+</footer>
 </body>
 </html>

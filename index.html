@@ -1,1 +1,211 @@
-console.log('Happy developing ✨')
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Apple mac-book</title>
+    <link rel="stylesheet" href="style.css">
+    <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+</head>
+
+
+<body>
+
+<header class="header">
+    <div class="header__logo">
+        <img src="./images/Apple_logo_grey.png" alt="Grey apple logo" class="header__logo__image">
+        <p class="header__log__text">Apple</p>
+    </div>
+
+    <nav class="nav">
+        <a href="#store" class="nav__link"> Store</a>
+        <a href="#accessories" class="nav__link">accessories</a>
+        <a href="#blog" class="nav__link">blog</a>
+        <a href="#support" class="nav__link">support</a>
+    </nav>
+
+    <div class="header__right-column"  >
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <div class="cart-icon-wrapper">
+            <a href="#basketDropdown" class="fa-solid fa-basket-shopping">
+            <span class="cart-count">1</span>
+            </a>
+
+            <div id="basketDropdown" class="basket-dropdown">
+                <div class="basket-content">
+                    <a href="#" class="close">&times;</a>
+                    <h2 class="basket-title">In Your Basket</h2>
+                    <div class="basket-item">
+                        <img src="/images/mbp.png" alt="MacBook Pro 2024">
+                    
+                        <div class="basket-item-details">
+                            <h3>Macbook Pro 2024</h3>
+                            <p>Orice:$1999</p>
+                        </div>
+                    </div>    
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</header>
+
+<section class = "hero fade-in">
+    <div class="her__image">
+        <img src="/images/mbp.png" alt="Macbook Pro 2024">
+    </div>
+
+    <div class="hero__text">
+        <h1 class="hero__title">Macbook Pro 2024</h1>
+        <h2 class="hero__subtitle">Supercharged for pros.</h2>
+        <p class="hero__description">The most powerful Macbook Pro ever is here. With the blazing-fast M3 Pro or M3 Max chip</p>
+        <p class="hero__price">From $1999</p>
+
+        <div class="hero__buttons">
+            <a href="#order" class="hero__button" > Order Now</a>
+            <a href="#videoModal" class="hero__playbutton"> <i class="fa-solid fa-play"></i> </a>
+        </div>
+    </div>
+</section>
+
+<section class="specs_fade-in">
+    <div class="spec">
+        <h3 class="spec__titile">3.7x</h3>
+        <p class="spec__description">faster CPU performance</p>
+    </div>
+
+    <div class="spec">
+        <h3 class="spec__titile">13x</h3>
+        <p class="spec__description">faster graphics performance</p>
+    </div>
+
+    <div class="spec">
+        <h3 class="spec__titile">11x</h3>
+        <p class="spec__description">faster machine learning</p>
+    </div>
+
+    <div class="spec">
+        <h3 class="spec__titile">21</h3>
+        <p class="spec__description">hours battery life</p>
+    </div>
+
+</section>
+    
+<!--video modal structure-->
+<div id="videoModal" class="modal">
+    <div class="modal-content">
+        <a href="#" class="close">&times;</a>
+        <iframe width="560"
+                height="315"
+                src="https://www.youtube.com/embed/0pg_Y41waaE?si=pN9xflaHg7jKncEf"
+                frameborder="0" title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen></iframe>
+    </div>
+    
+</div>
+
+
+<footer>
+    <div class="footer__container">
+        <div class="footer__top">
+            <div class="footer__breadcrumbs">
+                <a href="" class="#"> <i class="fa-solid fa-apple"></i></a>
+                <span></span>
+                <a href="" id="">Mac</a>
+                <span></span>
+                <a href="" id="">Macbook Pro</a>
+                <span></span>
+                <a href="" id="">Macbook Pro 14-inch and 16-inch</a>
+            </div>
+        </div>
+
+        <div class="footer__middile">
+            <h4>Explore</h4>
+            <ul>
+                <li><a href="#" >Mac</a></li>
+                <li><a href="#" >iPad</a></li>
+                <li><a href="#" >iPhone</a></li>
+                <li><a href="#" >Watch</a></li>
+                <li><a href="#" >Airpods</a></li>
+                <li><a href="#" >TV & Home</a></li>
+                <li><a href="#" ></a>Airtag</li>
+            </ul>
+        </div>
+
+        <div class="footer__column">
+            <h4>Services</h4>
+            <ul>
+                <li><a href="#" >Apple Music</a></li>
+                <li><a href="#" >Apple TV+</a></li>
+                <li><a href="#" >Apple Arcade</a></li>
+                <li><a href="#" >icloud</a></li>
+                <li><a href="#" >Apple One</a></li>
+                <li><a href="#" >Apple books</a></li>
+                <li><a href="#" ></a>Apple Podcasts</li>
+                <li><a href="#" ></a>Apple Store</li>
+            </ul>
+        </div>
+
+        <div class="footer__column">
+            <h4>For Business</h4>
+            <ul>
+                <li><a href="#" >Apple and Business</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__column">
+            <h4>Apple Values</h4>
+            <ul>
+                <li><a href="#" >Accessibility</a></li>
+                <li><a href="#" >Environment</a></li>
+                <li><a href="#" >Privacy</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__column">
+            <h4>About Apple</h4>
+            <ul>
+                <li><a href="#" >Career Opportunities</a></li>
+                <li><a href="#" >Investors</a></li>
+                <li><a href="#" >Ethics & Compliance</a></li>
+                <li><a href="#" >Events</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__column">
+            <h4>Account</h4>
+            <ul>
+                <li><a href="#" >Manage Account</a></li>
+                <li><a href="#" >Icloud.com</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__bottom">
+            <span class="footer__bottom-retailer"><a href="#" >Find a retailer near you.</a></span>
+            <div class="footer__legal">
+                <span>Copy right &#169 2024 Apple Inc. All rights reserved</span>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Legal</a>
+                <a href="#">Site Map</a>
+                <span>United States</span>
+            </div>
+
+        </div>
+
+
+
+    </div>
+</footer>
+
+
+</body>
+
+
+</html> 
